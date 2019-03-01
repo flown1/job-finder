@@ -1,6 +1,6 @@
 import { connect } from "react-redux";
 import {RootContainerComponent} from '../Components/RootContainer/index'
-import StartupActions from "../Redux/StartupRedux";
+import StartupActions from '../Redux/StartupRedux';
 
 // wraps dispatch to create nicer functions to call within our component
 const mapDispatchToProps = dispatch => ({

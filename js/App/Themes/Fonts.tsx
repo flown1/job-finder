@@ -1,16 +1,17 @@
 const type = {
-  base: "Avenir-Book",
+  base: "OpenSans-Regular",
+  light: "OpenSans-Light",
   bold: "Avenir-Black",
-  emphasis: "HelveticaNeue-Italic"
 };
 
 const size = {
   h1: 38,
   h2: 34,
   h3: 30,
-  h4: 26,
+  h4: 23,
   h5: 20,
   h6: 19,
+  h7: 16,
   input: 18,
   regular: 17,
   medium: 14,
@@ -28,7 +29,7 @@ const style = {
     fontSize: size.h2
   },
   h3: {
-    fontFamily: type.emphasis,
+    fontFamily: type.base,
     fontSize: size.h3
   },
   h4: {
@@ -40,7 +41,7 @@ const style = {
     fontSize: size.h5
   },
   h6: {
-    fontFamily: type.emphasis,
+    fontFamily: type.base,
     fontSize: size.h6
   },
   normal: {

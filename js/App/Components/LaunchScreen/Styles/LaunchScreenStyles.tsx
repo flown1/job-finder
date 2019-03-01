@@ -1,21 +1,28 @@
 import { StyleSheet } from "react-native";
 import { Metrics, ApplicationStyles } from "../../../Themes/index";
+import * as Themes from '../../../Themes';
+
 /** @type {{search: React.CSSProperties}} */
 export default StyleSheet.create({
   ...ApplicationStyles.screen,
   container: {
-    paddingBottom: Metrics.baseMargin
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    paddingBottom: Metrics.baseMargin,
+    height: Metrics.screenHeight
   },
-  settingsContainer: {
-    padding:Metrics.baseMargin
+  logoContainer: {
+    top: 220,
+    height: 150
   },
-  logo: {
-    marginTop: Metrics.doubleSection,
-    height: Metrics.images.logo,
-    width: Metrics.images.logo,
-    resizeMode: "contain" as 'contain'
+  button: {
+    alignItems: 'center',
+    justifyContent: 'center'
   },
-  centered: {
-    alignItems: "center" as 'center'
+  copyright: {
+    textAlign: 'center',
+    bottom: 10,
+    color: Themes.Colors.grey,
+    fontSize: Themes.Fonts.size.small
   }
 });

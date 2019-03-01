@@ -1,7 +1,6 @@
 const colors = {
   background: "#1F0808",
   clear: "rgba(0,0,0,0)",
-  facebook: "#3b5998",
   transparent: "rgba(0,0,0,0)",
   silver: "#F7F7F7",
   steel: "#CCCCCC",
@@ -22,10 +21,15 @@ const colors = {
   border: "#483F53",
   banner: "#5F3E63",
   text: "#E0D7E5",
-};
 
-export const primaryColor='#0087EA';
-export const primaryColorLight='#0095E1';
+  blue: '#6CCFF6',
+  purple: '#6153CC',
+  black: "#001011",
+  blackLight: "#01172F",
+  grey: '#707070',
+  boneWhite: '#EEF0F2'
+
+};
 
 //const mode = 2;
 
