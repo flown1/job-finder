@@ -24,7 +24,7 @@ export default class RootContainer extends Component<RootContainerProps> {
   render() {
     return (
       <View style={styles.applicationView}>
-        <StatusBar barStyle="light-content" />
+        <StatusBar barStyle="dark-content" />
         <ReduxNavigation />
       </View>
     );

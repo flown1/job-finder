@@ -1,13 +1,13 @@
 class JobOffer {
-  position: String;
-  level: String;
-  location: String;
-  salaryMin: String;
-  salaryMax: String;
-  currency: String;
-  company: String;
-  desc: String;
-  link: String;
+  position: string;
+  level: string;
+  location: string;
+  salaryMin: string;
+  salaryMax: string;
+  currency: string;
+  company: string;
+  desc: string;
+  link: string;
 
   constructor(position, level, location, salaryMin, salaryMax, company, desc, link){
     this.position = position;

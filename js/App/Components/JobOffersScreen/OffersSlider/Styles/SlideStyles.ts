@@ -1,6 +1,7 @@
 import {StyleSheet} from "react-native";
 import {Metrics} from "../../../../Themes";
 import * as Themes from "../../../../Themes";
+import colors from "../../../../Themes/Colors";
 
 const slideHeight = Metrics.screenHeight - 100;
 const slideWidth = Metrics.screenWidth - 20;
@@ -11,9 +12,6 @@ export default StyleSheet.create({
     position: 'absolute',
     height: slideHeight,
     width: slideWidth,
-    top: -10,
-    paddingTop: 20,
-    paddingBottom: 40,
     borderRadius: 25,
 
     backgroundColor: 'white',
@@ -32,9 +30,39 @@ export default StyleSheet.create({
   },
   contentBox: {
     flex: 1,
-    justifyContent: 'space-between',
+    justifyContent: 'center',
     alignItems: 'center',
     textAlign: 'center',
+  },
+  applyLabelContainer: {
+    position: 'absolute',
+    zIndex: 999,
+    top: 15,
+    textAlign: 'center'
+  },
+  denyLabelContainer: {
+    position: 'absolute',
+    zIndex: 999,
+    top: 15,
+    textAlign: 'center'
+  },
+  applyLabel: {
+    color: colors.green,
+    fontWeight: '800',
+    borderColor: colors.green,
+    borderWidth: 1,
+    left: 15
+  },
+  denyLabel: {
+    color: colors.red,
+    fontWeight: '800',
+    borderColor: colors.red,
+    borderWidth: 1,
+    left: slideWidth - 50
+  },
+  flexBox: {
+    flex: 1,
+    position: 'absolute'
   },
   top: {
     borderBottomColor: Themes.Colors.boneWhite,
@@ -80,5 +108,8 @@ export default StyleSheet.create({
     fontSize: Themes.Fonts.size.h6,
     color: Themes.Colors.boneWhite,
     textAlign: 'center',
+  },
+  hidden: {
+    display: 'none'
   }
 });

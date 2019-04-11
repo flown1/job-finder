@@ -27,7 +27,9 @@ const colors = {
   black: "#001011",
   blackLight: "#01172F",
   grey: '#707070',
-  boneWhite: '#EEF0F2'
+  boneWhite: '#EEF0F2',
+  green: '#0f0',
+  red: '#f00'
 
 };
 

@@ -12,8 +12,8 @@ interface LaunchScreenComponentProps {
   navigation: any
 }
 interface LaunchScreenComponentState {
-  coolSayings: Array<String>,
-  pickedSaying: String
+  coolSayings: Array<string>,
+  pickedSaying: string
 }
 
 export default class LaunchScreen extends React.Component <LaunchScreenComponentProps, LaunchScreenComponentState> {

@@ -3,7 +3,7 @@ import {StyleSheet, Text, View} from 'react-native';
 import * as Themes from "../../../Themes";
 
 interface IProps {
-  text: String
+  text: string
 }
 interface IState {
 }
